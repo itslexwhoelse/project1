@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Main {
+    public static Scanner in = new Scanner(System.in);
+    public static void main(String[] args) {
+
+
+        int[] street = new int[101];
+        for (int i = 1; i < 101; i++) {
+            street[i] = i;
+            System.out.println("Street: " +street[i]);
+        int[] avenue = new int[101];
+        for (int i = 1; i < 101; i++) {
+        }
+        avenue[i] = i;
+            System.out.println("Avenue: " +avenue[i]);
+        }
+
+        System.out.println(" ");
+        System.out.println("what street are you on?");
+        if(!Validate()) {
+Validate();
+        } else {
+            int curStreet = in.nextInt();
+        }
+        System.out.println("what avenue are you on?");
+        if(!Validate()) {
+            Validate();
+        } else {
+            int curAvenue= in.nextInt();
+        }
+        System.out.println("you are on " + curStreet + " street and " + curAvenue + " avenue");
+    }
+
+
+
